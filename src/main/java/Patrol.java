@@ -1,9 +1,10 @@
-
+import User.Policeman;
 
 public class Patrol {
     private Integer numberOfPatrol;
-    private String kindOfPatrol;
+    public String kindOfPatrol;
     private int numberOfPoliceCar;
+    Policeman[] arrayOfPoliceman = new Policeman[2];
 
     public Patrol(Integer numberOfPatrol,String kindOfPatrol,int numberOfPoliceCar) {
         this.numberOfPatrol = numberOfPatrol;
@@ -32,6 +33,16 @@ public class Patrol {
 
     public void setNumberOfPoliceCar(int numberOfPoliceCar) {
         this.numberOfPoliceCar = numberOfPoliceCar;
+    }
+    public void sendPatrol()
+    {
+        arrayOfPoliceman[0].isBusy = true;
+        arrayOfPoliceman[1].isBusy = true;
+    }
+    public void endPatrol()
+    {
+        arrayOfPoliceman[0].isBusy = false;
+        arrayOfPoliceman[1].isBusy = false;
     }
 }
 
