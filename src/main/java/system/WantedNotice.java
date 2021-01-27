@@ -1,3 +1,5 @@
+package system;
+
 public class WantedNotice {
     int suspectAge;
     int aproximateHeight;

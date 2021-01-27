@@ -1,6 +1,6 @@
-package User;
+package system.User;
 
-public class Commandant {
+public class Dispatcher {
     boolean permission;
 
     public void setPermission(boolean havePermission)

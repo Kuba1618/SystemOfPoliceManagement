@@ -1,4 +1,4 @@
-package User;
+package system.User;
 
 public class Policeman {
     protected  String position;

@@ -1,4 +1,6 @@
-import User.Policeman;
+package system;
+
+import system.User.Policeman;
 
 public class Patrol {
     private Integer numberOfPatrol;

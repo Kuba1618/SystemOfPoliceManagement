@@ -1,3 +1,5 @@
+package system;
+
 public class PoliceStation {
     int numberOfPoliceCars;
     int numberOfPhone;
